@@ -1,0 +1,8 @@
+Run the following python scripts in order
+
+preprocessing.py
+train.py
+test.py
+
+After train.py is successfully executed, the classifiers and trained CGAN will be stored in files locally.
+In test.py, we load these models and perform performance comparison
