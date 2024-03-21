@@ -1,8 +1,12 @@
-Run the following python scripts in order
+1. Make sure to install all the required package in the requirements.txt
 
-preprocessing.py
-train.py
-test.py
+2. Download the CICIDS 2018 Dataset and place it in the project directory
 
-After train.py is successfully executed, the classifiers and trained CGAN will be stored in files locally.
+3. Run the following python scripts in the same order
+
+    preprocessing.py
+    train.py
+    test.py
+
+Note: After train.py is successfully executed, the classifiers and trained CGAN will be stored in files locally.
 In test.py, we load these models and perform performance comparison
